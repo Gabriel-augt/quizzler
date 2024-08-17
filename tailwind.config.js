@@ -9,9 +9,6 @@ export default {
       backgroundImage: {
         'bgHome': "url('/src/assets/bg-home.png')",
         'bgQuestions': "url('/src/assets/bg-bg-questions.jpg')",
-        'bg1': "url('url('/src/assets/bg-1.png')')",
-        'bg2': "url('url('/src/assets/bg-2.png')')",
-        'bg3': "url('url('/src/assets/bg-3.jpg')')",
         'bgResults': "url('url('/src/assets/bg-results.png')')",
       },
       fontFamily: {
@@ -22,11 +19,10 @@ export default {
       },
       keyframes: {
         bounce: {
-          '0%, 100%': { transform: 'translateX(-10%)' },
+          '0%, 100%': { transform: 'translateY(-5%)' },
         }
       },
     },
   },
   plugins: [],
 }
-
