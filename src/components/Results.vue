@@ -42,7 +42,7 @@ onMounted(() => {
 
         <main class="flex justify-center items-center w-screen h-screen">
             
-            <section class="flex justify-center items-center flex-col text-center space-y-7 w-screen h-screen bg-[url('/src/assets/bg-Results.png')] bg-center bg-cover bg-no-repeat select-none drop-shadow-lg xl:rounded-xl xl:w-7/12 xl:h-2/3 bgResults">
+            <section class="flex justify-center items-center flex-col text-center space-y-7 w-screen h-screen bg-[url('/src/assets/bg-results.png')] bg-center bg-cover bg-no-repeat select-none drop-shadow-lg xl:rounded-xl xl:w-7/12 xl:h-2/3 bgResults">
                 
                 <div v-if="scoreboard">
                     
